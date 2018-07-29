@@ -1,0 +1,42 @@
+div.navigator {
+    z-index: 30;
+    position: relative;
+}
+.main-nav {
+    width: 100vw;
+    text-align: right;
+    padding: 0;
+    margin: auto;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.3);
+}
+.main-nav li {
+    list-style: none;
+    display: inline-block;
+    width: 10vw;
+    height: 40px;
+    border-left: 1px solid #f1f1f1;
+}
+.main-nav li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+.main-nav li:hover a {
+    background-color: #f1f1f1;
+    color: #464646;
+}
+@media only screen and (max-width: 420px) {
+    .main-nav li {
+        height: 36px;
+    }
+    .main-nav li a {
+        font-size: 12px;
+    }
+}

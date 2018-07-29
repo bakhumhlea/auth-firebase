@@ -1,0 +1,80 @@
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.app-header {
+  z-index: 100;
+  position: relative;
+  text-align: center;
+  font-family: 'Futura', san-sarif;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: 4px;
+  color: rgb(49, 49, 49);
+  padding: 8px 0 8px 0;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #f1f1f1;
+}
+.display {
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
+.signin-box {
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.3);
+}
+.input-box {
+  width: 70%;
+  height: 2rem;
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 10px 0 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid rgb(117, 117, 117);
+}
+.btn-success {
+  display: block;
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto auto 10px auto;
+  height:  2rem;
+  width: 25%;
+  border-radius: 3px;
+}
+.btn-signout {
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
