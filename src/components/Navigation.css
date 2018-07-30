@@ -32,6 +32,10 @@ div.navigator {
     background-color: #f1f1f1;
     color: #464646;
 }
+.main-nav li:hover a.btn-signout {
+    background-color: rgb(187, 77, 77);
+    color: white;
+}
 @media only screen and (max-width: 420px) {
     .main-nav li {
         height: 36px;

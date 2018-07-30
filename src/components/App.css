@@ -46,14 +46,6 @@ a {
   width: 25%;
   border-radius: 3px;
 }
-.btn-signout {
-  font-size: 0.8rem;
-  font-family: 'Montserrat', sans-serif;
-  padding: 0;
-  border: 0;
-  height: 100%;
-  width: 100%;
-}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;

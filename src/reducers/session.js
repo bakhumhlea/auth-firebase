@@ -12,7 +12,7 @@ function sessionReducer(state = INITIAL_STATE, action) {
         case 'AUTH_USER_SET' : {
             return applySetAuthUser(state, action);
         }
-        defult : return state;
+        default : return state;
     }
 }
 
